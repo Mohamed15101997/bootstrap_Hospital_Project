@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+}
+.par {
+  margin-right: 40px;
+  font-size: 19px;
+}
+.sec1 {
+  box-shadow: 1px 0px 6px 0px #2f934b;
+}
+.heading1 {
+  font-size: 44px;
+}
+.active {
+  color: #198754;
+}
+.divnav {
+  font-size: 19px;
+}
+.divnav ul li a:hover {
+  content: "";
+  border-bottom: 2px solid #198754;
+}
+.sec2 {
+  background-image: url("../images/image1.jpg");
+  background-size: cover;
+  height: 77vh;
+}
+.imgs {
+  width: 100%;
+}
+.footer {
+  font-size: 20px;
+}
+.footerSpan {
+  color: #222;
+  font-size: 23px;
+  font-weight: bold;
+}
+.up {
+  position: fixed;
+  bottom: 67px;
+  right: 20px;
+}
+.select::selection {
+  background-color: #198754; 
+  color: white;
+}
